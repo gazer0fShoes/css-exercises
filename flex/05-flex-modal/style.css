@@ -21,6 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  padding: 15px;
 }
 
 .icon {
@@ -31,6 +32,7 @@ body {
   min-width: 42px;
   height: 42px;
   border-radius: 50%;
+  margin-right: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,6 +41,8 @@ body {
 .question {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
 .close-button {
@@ -60,6 +64,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 button.continue {
